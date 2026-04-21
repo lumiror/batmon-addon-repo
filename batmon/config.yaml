@@ -53,10 +53,10 @@ schema:
       algorithm: "str?"
       current_calibration: "float?"
 
-  mqtt_user: "MQTT"
-  mqtt_password: "Lh5392833"
-  mqtt_broker: "192.168.1.43"
-  mqtt_port: "1883"
+  mqtt_user: "str?"
+  mqtt_password: "str?"
+  mqtt_broker: "str?"
+  mqtt_port: "int(1,65535)?"
 
   concurrent_sampling: "bool"
   invert_current: "bool"
